@@ -1,0 +1,114 @@
+file 3992 1431296349                                            
+version 2
+run General-0-20150511-00:19:02-5234
+attr configname General
+attr datetime 20150511-00:19:02
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network lte.simulations.networks.GtpNetwork
+attr processid 5234
+attr repetition 0
+attr replication #0
+attr resultdir ResultGtpNetwork
+attr runnumber 0
+attr seedset 0
+
+vector 49  GtpNetwork.router3.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 50  GtpNetwork.router3.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 97  GtpNetwork.pgwStandard3.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 98  GtpNetwork.pgwStandard3.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 108  GtpNetwork.pgwStandard3.pppInterface.queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 109  GtpNetwork.pgwStandard3.pppInterface.ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 129  GtpNetwork.pgwStandard1.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 130  GtpNetwork.pgwStandard1.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 140  GtpNetwork.pgwStandard1.pppInterface.queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 141  GtpNetwork.pgwStandard1.pppInterface.ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 168  GtpNetwork.router1.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 169  GtpNetwork.router1.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 184  GtpNetwork.coreNetwork.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 185  GtpNetwork.coreNetwork.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 195  GtpNetwork.coreNetwork.ppp[1].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 196  GtpNetwork.coreNetwork.ppp[1].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 206  GtpNetwork.coreNetwork.ppp[2].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 207  GtpNetwork.coreNetwork.ppp[2].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 227  GtpNetwork.pgwStandard2.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 228  GtpNetwork.pgwStandard2.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 238  GtpNetwork.pgwStandard2.pppInterface.queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 239  GtpNetwork.pgwStandard2.pppInterface.ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+vector 266  GtpNetwork.router2.ppp[0].queue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 267  GtpNetwork.router2.ppp[0].ppp  txState:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "tx state, vector"
+49	3756 9 0 0 0 0 1 0 0 0 0
+50	3765 9 0 0 0 0 1 0 0 0 0
+97	3774 9 0 0 0 0 1 0 0 0 0
+98	3783 9 0 0 0 0 1 0 0 0 0
+108	3792 10 0 0 0 0 1 0 0 0 0
+109	3802 10 0 0 0 0 1 0 0 0 0
+129	3812 10 0 0 0 0 1 0 0 0 0
+130	3822 10 0 0 0 0 1 0 0 0 0
+140	3832 10 0 0 0 0 1 0 0 0 0
+141	3842 10 0 0 0 0 1 0 0 0 0
+168	3852 10 0 0 0 0 1 0 0 0 0
+169	3862 10 0 0 0 0 1 0 0 0 0
+184	3872 10 0 0 0 0 1 0 0 0 0
+185	3882 10 0 0 0 0 1 0 0 0 0
+195	3892 10 0 0 0 0 1 0 0 0 0
+196	3902 10 0 0 0 0 1 0 0 0 0
+206	3912 10 0 0 0 0 1 0 0 0 0
+207	3922 10 0 0 0 0 1 0 0 0 0
+227	3932 10 0 0 0 0 1 0 0 0 0
+228	3942 10 0 0 0 0 1 0 0 0 0
+238	3952 10 0 0 0 0 1 0 0 0 0
+239	3962 10 0 0 0 0 1 0 0 0 0
+266	3972 10 0 0 0 0 1 0 0 0 0
+267	3982 10 0 0 0 0 1 0 0 0 0
