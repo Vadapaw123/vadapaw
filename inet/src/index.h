@@ -24,3 +24,4 @@
  */
 
 
+int myname;
